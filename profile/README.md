@@ -1,36 +1,34 @@
 # softwaresoftware.dev
 
-Open-source plugins, tools, and MCPs that make Claude Code do real work.
+Plugins, tools, and MCPs for Claude Code.
 
-## What we build
+30+ plugins that handle real workflows. You declare what you need, the installer figures out the rest.
 
-**[Plugin ecosystem](https://plugins.softwaresoftware.dev)** — 30+ Claude Code plugins with automatic dependency resolution. Declare what you need, the installer wires it together.
-
-- **Frameworks** — [Zapframe](https://zapframe.softwaresoftware.dev) (full SaaS from a prompt), [Liteframe](https://liteframe.softwaresoftware.dev) (static sites, zero ceremony)
-- **Apps** — [Cardwatch](https://cardwatch.softwaresoftware.dev) (Pokemon card stock monitor), [Gummymine](https://gummymine.softwaresoftware.dev) (Reddit market research), [Tokenboard](https://tokenboard.softwaresoftware.dev) (usage leaderboard)
-- **MCPs** — [Browser Bridge](https://claude-browser-bridge.softwaresoftware.dev) (control your real browser), [Gmail](https://gmail-mcp.softwaresoftware.dev), [Google Calendar](https://google-calendar-mcp.softwaresoftware.dev)
-- **Capability providers** — notifications, scheduling, deployment, browser automation, secure data vaults, and more
-
-## Quick start
+## Install
 
 ```bash
-# Add the marketplace
 claude plugin marketplace add softwaresoftware-dev/softwaresoftware-plugins
-
-# Install the installer
 claude plugin install softwaresoftware@softwaresoftware-plugins
 ```
 
 Then inside Claude Code:
+
 ```
 /softwaresoftware:install <plugin-name>
 ```
 
+## What's here
+
+**Frameworks.** [Zapframe](https://zapframe.softwaresoftware.dev) scaffolds a full SaaS (Django + Next.js). [Liteframe](https://liteframe.softwaresoftware.dev) ships static pages to Nginx.
+
+**Apps.** [Cardwatch](https://cardwatch.softwaresoftware.dev) monitors Pokemon card stock. [Gummymine](https://gummymine.softwaresoftware.dev) scrapes Reddit for what people actually want. [Tokenboard](https://tokenboard.softwaresoftware.dev) is a Claude Code usage leaderboard.
+
+**MCPs.** [Browser Bridge](https://claude-browser-bridge.softwaresoftware.dev) lets Claude control your real browser. [Gmail](https://gmail-mcp.softwaresoftware.dev) and [Google Calendar](https://google-calendar-mcp.softwaresoftware.dev) do what you'd expect.
+
+**Providers.** Notifications, scheduling, deployment, browser automation, secure data vaults. Plugins declare abstract capabilities and the installer picks the right provider for your environment.
+
 ## Links
 
-- [softwaresoftware.dev](https://softwaresoftware.dev) — Home
-- [plugins.softwaresoftware.dev](https://plugins.softwaresoftware.dev) — Plugin catalog
-- [products.softwaresoftware.dev](https://products.softwaresoftware.dev) — Everything we ship
-- [blog.softwaresoftware.dev](https://blog.softwaresoftware.dev) — Build logs and write-ups
+[softwaresoftware.dev](https://softwaresoftware.dev) · [plugins](https://plugins.softwaresoftware.dev) · [all products](https://products.softwaresoftware.dev) · [blog](https://blog.softwaresoftware.dev)
 
-All open source. MIT licensed. Self-hosted on our own hardware. $0/mo infrastructure.
+Open source. MIT licensed. Self-hosted. $0/mo infrastructure.
