@@ -20,5 +20,3 @@ Then inside Claude Code:
 ## Links
 
 [softwaresoftware.dev](https://softwaresoftware.dev) · [plugins](https://plugins.softwaresoftware.dev) · [all products](https://products.softwaresoftware.dev) · [blog](https://blog.softwaresoftware.dev)
-
-Open source. MIT licensed. Self-hosted. $0/mo infrastructure.
